@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "193626647318",
+    "firebase_url": "https://imagedetection-b1ac3.firebaseio.com",
+    "project_id": "imagedetection-b1ac3",
+    "storage_bucket": "imagedetection-b1ac3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193626647318:android:528952b5c6715b3a",
+        "android_client_info": {
+          "package_name": "lab.itsoul.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193626647318-f8hsmkrtg7bdcbigqm3f6otg3headk8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2EqEmyEItToSliAPSWgPiDUrpSelfuYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193626647318:android:a85509e83c8b7784",
+        "android_client_info": {
+          "package_name": "lab.itsoul.com.imagedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193626647318-f8hsmkrtg7bdcbigqm3f6otg3headk8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2EqEmyEItToSliAPSWgPiDUrpSelfuYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
