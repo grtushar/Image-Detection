@@ -53,10 +53,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void pickPhoto(View view) {
-        startActivityForResult(new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.INTERNAL_CONTENT_URI), GET_FROM_GALLERY);
-//        Intent intent = new Intent();
-//        intent.setType("image/*");
-//        intent.setAction(Intent.ACTION_GET_CONTENT);
+        Intent intent = new Intent();
+        intent.setType("image/*");
+        intent.setAction(Intent.ACTION_GET_CONTENT);
+        startActivityForResult(intent, GET_FROM_GALLERY);
+//        startActivityForResult(new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.INTERNAL_CONTENT_URI), GET_FROM_GALLERY);
     }
 
     @Override
@@ -134,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
 
                                         barcodeValue.setText("no");
                                         noOfPerson.setText(Integer.toString(faces.size()));
+
                                         double smileProb = 0.0,
                                                 eyeOpenProb = 0.0;
 
